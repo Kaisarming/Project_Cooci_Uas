@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+    tools:context=".location_tracking">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_back4"
+        android:translationZ="90dp"
+        ></ImageButton>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:hint="Cari Lokasi"
+        android:id="@+id/et_lokasi"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="90dp"
+        android:translationZ="90dp"
+        ></EditText>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="360dp"
+        android:translationZ="90dp"
+        ></ImageButton>
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ss_maps1"
+        ></androidx.constraintlayout.utils.widget.ImageFilterView>
+
+
+</RelativeLayout>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+    tools:context=".booking_screen2">
+
+    <ImageButton
+        android:id="@+id/btn_back3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/button_left"
+        ></ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rincian Alamat"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="45dp"
+        android:id="@+id/txt_penjelasanBooking"
+        android:textSize="20dp"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_pin"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="40dp"
+        ></ImageView>
+
+    <EditText
+        android:id="@+id/txt_maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="120dp"
+        android:hint="lokasi Anda"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat lengkap"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt_maps"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/txt_alamat"
+        ></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_box"
+        android:layout_below="@id/txt_alamat"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/et_alamat"
+        android:hint="cth: blok, nomor rumah, dll"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catatan"
+        android:textStyle="bold"
+        android:layout_below="@+id/et_alamat"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt_catatan"
+        ></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_box"
+        android:layout_below="@id/txt_catatan"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/et_catatan"
+        android:hint="cth: rumah berwarna hitam"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metode Pembayaran"
+        android:textSize="20dp"
+        android:layout_below="@+id/et_catatan"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt_pembayaran"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_dompet"
+        android:layout_below="@+id/txt_pembayaran"
+        android:layout_marginLeft="47dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih metode pembayaran"
+        android:layout_below="@+id/txt_pembayaran"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/txt_metode"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/txt_bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="330dp"
+        android:hint="Bank BCA ( dicek otomatis )"
+        android:textSize="10dp"></EditText>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_vertikalatas"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="300dp"
+        ></ImageButton>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bca"
+        android:layout_below="@+id/txt_bank"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/id_bca"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank BCA ( dicek otomatis )"
+        android:layout_below="@+id/txt_bank"
+        android:layout_marginLeft="140dp"
+        android:textSize="15dp"
+        android:id="@+id/txt_bankbca"
+        ></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="hanya menerima dari bank BCA"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="137dp"
+        android:textSize="15dp"
+        ></EditText>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_mandiri"
+        android:layout_below="@+id/id_bca"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/id_mandiri"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank Mandiri ( dicek otomatis )"
+        android:layout_below="@+id/txt_bank"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:id="@+id/txt_bankmandiri"
+        ></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="hanya menerima dari bank Mandiri"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="137dp"
+        android:textSize="15dp"
+        ></EditText>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_ovo"
+        android:layout_below="@+id/id_mandiri"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/id_ovo"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OVO ( dicek otomatis )"
+        android:layout_below="@+id/txt_bank"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="110dp"
+        android:textSize="15dp"
+        android:id="@+id/txt_ovo"
+        ></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="hanya menerima dari ovo"
+        android:layout_marginTop="485dp"
+        android:layout_marginLeft="137dp"
+        android:textSize="15dp"
+        ></EditText>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_dana"
+        android:layout_below="@id/id_ovo"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/id_dana"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dana ( dicek otomatis )"
+        android:layout_below="@+id/txt_bank"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="175dp"
+        android:textSize="15dp"
+        android:id="@+id/txt_dana"
+        ></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="hanya menerima dari dana"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="137dp"
+        android:textSize="15dp"
+        ></EditText>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_gopay"
+        android:layout_below="@id/id_dana"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/id_gopay"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gopay ( dicek otomatis )"
+        android:layout_below="@+id/txt_bank"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="230dp"
+        android:textSize="15dp"
+        android:id="@+id/txt_gopay"
+        ></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="hanya menerima dari gopay"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="137dp"
+        android:textSize="15dp"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pesan"
+        android:id="@+id/btn_pesan"
+        android:layout_below="@+id/id_gopay"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="290dp"
+        ></Button>
+
+
+
+
+
+
+
+
+</RelativeLayout>

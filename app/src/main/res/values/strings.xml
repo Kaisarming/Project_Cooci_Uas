@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project_Cooci</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_daftar">Daftar</string>
+    <string name="txt_nama">Masukkan Nama Anda</string>
+    <string name="txt_email2">Masukkan Email Anda</string>
+    <string name="txt_password2">Masukkan Password Anda</string>
+    <string name="txt_rules">Saya menyetujui syarat dan ketentuan di atas dengan kesadaran penuh dan tanpa paksaan dari pihak manapun</string>
+    <string name="txt_home">Silahkan pilih jenis kendaraan yang dibutuhkan</string>
+    <string name="txt_penjelasan">Teknologi terbaru dimana mencuci kendaraan tidak perlu digosok hanya perlu menyemprotkan cairan sabun khusus berteknologi nano tech. Bisa dipanggil berdasarkan lokasi customer.</string>
+</resources>

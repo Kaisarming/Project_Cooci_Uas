@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_detail_pesanan"
+    tools:context=".activity_detail_pesanan">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_back6"
+        ></ImageButton>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="20dp"
+        android:text="Detail Pesanan\n (Id Detail Pesanan)"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="(Status Pesanan)\n(Jenis Layanan)"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="200dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Metode Pembayaran"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="280dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Biaya Layanan"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="320dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Biaya Perjalanan"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="340dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Total Pembayaran"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="360dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Pemesanan"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="390dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Pembayaran"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="410dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Pesanan"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="430dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="470dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Scientia Business Park, Jl. Gading Serpong Boulevard No.1, Curug Sangereng, Kelapa Dua, Tangerang Regency, Banten"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="490dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Rp 70.000"
+        android:layout_marginLeft="275dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="320dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Rp 30.000"
+        android:layout_marginLeft="275dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="340dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Rp 100.000"
+        android:layout_marginLeft="275dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_marginTop="360dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="28/05/22 12.00 WIB"
+        android:layout_marginLeft="275dp"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:layout_marginTop="390dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="28/05/22 12.05 WIB"
+        android:layout_marginLeft="275dp"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:layout_marginTop="412dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="30/05/22 12.00 WIB"
+        android:layout_marginLeft="275dp"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:layout_marginTop="432dp"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_pesanan"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="15dp"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_calendar"
+        android:layout_marginTop="393dp"
+        android:layout_marginLeft="15dp"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_lokasi"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="20dp"
+        ></ImageView>
+
+    <ImageButton
+        android:layout_width="156dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="630dp"
+        android:src="@drawable/btn_hubungi_kami"
+        android:id="@+id/btn_b2"
+        ></ImageButton>
+
+</RelativeLayout>

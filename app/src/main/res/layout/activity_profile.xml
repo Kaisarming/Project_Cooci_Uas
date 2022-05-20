@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_profile"
+    tools:context=".profile">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btn_b1"
+        ></ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:text="Profile"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_profile"
+        android:layout_marginTop="125dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv_profile"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_profile"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:text="Nama"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/text_namaProfileScreen"
+        ></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_namaProfileScreen"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/box_profile"
+        android:hint="Edit nama anda"
+        android:id="@+id/box_namaprofileScreen"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/box_namaprofileScreen"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:text="Tanggal Lahir"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/text_tglprofileScreen"
+        ></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_tglprofileScreen"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/box_profile"
+        android:hint="Pilih"
+        android:drawableRight="@drawable/vertikal_row"
+        android:id="@+id/box_tglprofileScreen"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/box_tglprofileScreen"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:text="Jenis Kelamin"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/text_genderprofileScreem"
+        ></TextView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_genderprofileScreem"
+        android:src="@drawable/gender_pria"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/ib_genderPria"
+        ></ImageButton>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_genderprofileScreem"
+        android:src="@drawable/gender_wanita"
+        android:layout_marginLeft="210dp"
+        android:id="@+id/ib_genderWanita"
+        ></ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ib_genderPria"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:text="Alamat"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/text_alamatprofileScreen"
+        ></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_alamatprofileScreen"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/box_profile"
+        android:hint="Masukkan alamat anda"
+        android:id="@+id/box_alamatprofileScreen"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/box_alamatprofileScreen"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:text="No Hp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/text_nohpprofileScreen"
+        ></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_nohpprofileScreen"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/box_profile"
+        android:hint="Masukkan no hp anda"
+        android:id="@+id/box_nohpprofileScreen"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box_nohpprofileScreen"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/bg_masuk"
+        android:text="Simpan"
+        android:id="@+id/btn_b2"
+        ></Button>
+
+</RelativeLayout>

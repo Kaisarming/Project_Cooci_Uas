@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+    tools:context=".Activity2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mini_logo"
+        android:layout_marginLeft="280dp"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/carwash_1"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuci Kendaraan"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_light"
+        android:textSize="20dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anda Tanpa Sentuh"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_light"
+        android:textSize="20dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_penjelasan"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="18dp"
+        android:id="@+id/txt_penjelasan"
+        ></TextView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_right"
+        android:layout_below="@+id/txt_penjelasan"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="290dp"
+        android:id="@+id/btn_next1"
+        ></ImageButton>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_profile"
+    tools:context=".tentang">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btn_b1"
+        ></ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:text="Tentang"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="70dp"
+        android:text="Aplikasi"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/text_aplikasitentangScreen"
+        ></TextView>
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_aplikasitentangScreen"
+        android:text="Teknologi terbaru dimana mencuci kendaraan tidak
+perlu digosok hanya perlu menyemprotkan cairan sabun khusus berteknologi nano tech.
+Bisa dipanggil berdasarkan lokasi customer."
+        android:textSize="15dp"
+        android:id="@+id/penjelasanaplikasiScreen"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/penjelasanaplikasiScreen"
+        android:text="Developer"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/text_developertentangScreen"
+        ></TextView>
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_developertentangScreen"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        android:textSize="15dp"
+        ></TextView>
+
+</RelativeLayout>

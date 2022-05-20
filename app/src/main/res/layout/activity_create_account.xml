@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/create_acc"
+    tools:context=".create_account">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_signUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        ></ImageView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_daftar"
+        android:textStyle="bold"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="20dp"
+        android:id="@+id/txt_daftar2"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_daftar2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="Nama"
+        android:id="@+id/txt_nama"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_nama"
+        android:text="@string/txt_nama"
+        android:background="@drawable/horizontal_line"
+        android:layout_marginLeft="53dp"
+        android:id="@+id/et_nama"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_nama"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="E-Mail"
+        android:id="@+id/txt_email2"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_email2"
+        android:text="@string/txt_email2"
+        android:background="@drawable/horizontal_line"
+        android:layout_marginLeft="53dp"
+        android:id="@+id/et_email2"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_email2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="Ponsel"
+        android:id="@+id/txt_ponsel"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_ponsel"
+        android:text="Masukkan Nomor Ponsel Anda"
+        android:background="@drawable/horizontal_line"
+        android:layout_marginLeft="53dp"
+        android:id="@+id/et_ponsel"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_ponsel"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="Password"
+        android:id="@+id/txt_password2"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_password2"
+        android:text="@string/txt_password2"
+        android:background="@drawable/horizontal_line"
+        android:layout_marginLeft="53dp"
+        android:id="@+id/et_password2"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_masuk"
+        android:layout_below="@id/et_password2"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Daftar"
+        android:id="@+id/btn_daftar"
+        ></Button>
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+    tools:context=".rules">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_back1"
+        ></ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="85dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Persyaratan dan Kebijakan"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. aaaaaaaaaaaaaaaaaaaaaaaaaa"
+        android:textSize="25dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/txt_rules1"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_rules1"
+        android:text="2. aaaaaaaaaaaaaaaaaaaaaaaaaa"
+        android:textSize="25dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:id="@+id/txt_rules2"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_rules2"
+        android:text="3. aaaaaaaaaaaaaaaaaaaaaaaaaa"
+        android:textSize="25dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:id="@+id/txt_rules3"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_rules3"
+        android:text="4. aaaaaaaaaaaaaaaaaaaaaaaaaa"
+        android:textSize="25dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:id="@+id/txt_rules4"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_rules4"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/kotak_kecil"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_rules4"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="95dp"
+        android:text="@string/txt_rules"
+        android:id="@+id/txt_rules"
+        ></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_rules"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_masuk"
+        android:text="Setuju"
+        android:id="@+id/btn_setuju"
+        ></Button>
+
+</RelativeLayout>

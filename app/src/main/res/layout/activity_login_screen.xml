@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_screen"
+    tools:context=".login_screen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/image_pc"
+        ></ImageView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:textStyle="bold"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="270dp"
+        android:text="@string/txt_email"
+        android:id="@+id/txt_email"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_email"
+        android:layout_marginLeft="35dp"
+        android:drawableRight="@drawable/icon_email"
+        android:background="@drawable/horizontal_line"
+        android:hint="Masukkan Email Anda"
+        android:id="@+id/et_email"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="350dp"
+        android:text="Password"
+        android:id="@+id/txt_password"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_password"
+        android:layout_marginLeft="35dp"
+        android:drawableRight="@drawable/icon_password"
+        android:background="@drawable/horizontal_line"
+        android:hint="Masukkan Password Anda"
+        android:id="@+id/et_password"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_masuk"
+        android:layout_below="@id/et_password"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true"
+        android:text="Masuk"
+        android:id="@+id/btn_loginScreen"
+        ></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_loginScreen"
+        android:layout_marginTop="5dp"
+        android:text="Belum punya akun? Silahkan Daftar"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt_daftar"
+        android:textColor="@color/white"
+        android:textAlignment="textEnd"
+        ></TextView>
+
+</RelativeLayout>
